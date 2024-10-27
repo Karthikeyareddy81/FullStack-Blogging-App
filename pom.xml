@@ -110,4 +110,12 @@
         </snapshotRepository>
     </distributionManagement>
 
+        <distributionManagement>
+        <repository>
+	    <id>nexus-releases</id>
+	    <url>http://18.181.193.211:8081/repository/maven-releases/</url>
+        </repository>
+    </distributionManagement>
+
+
 </project>
